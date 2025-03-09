@@ -32,6 +32,7 @@ public class Date
     public int Day {
         get => _day;
         set => _day = ValidateDay(value);
+        
     }
 
     public int Month
@@ -57,6 +58,7 @@ public class Date
         if (month < 1 || month > 12)
         {
             throw new ArgumentException($"{month}  is not valid");
+            
         }
 
         return month;
