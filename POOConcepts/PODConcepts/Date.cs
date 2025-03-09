@@ -13,7 +13,7 @@ public class Date
     private int _day;
     private int _month;
     private int _year;
-
+    private int something;
     public Date()
     {
         _year = 1900;
